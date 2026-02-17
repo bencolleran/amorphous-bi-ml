@@ -1,0 +1,1 @@
+#here we will do DFT calculations for each structure, creating more data to train on
