@@ -47,7 +47,7 @@ else:
     print("No scaling applied (scale = 1.0)")
 
 # write out (same pattern as you had)
-name=f"{PROJECT_ROOT}/Bi_{x}_{y}_{z}_{48*x*y*z}_{scaled_volume}_scale.data"
+name=f"{PROJECT_ROOT}/structures/Bi_{x}_{y}_{z}_{48*x*y*z}_{scaled_volume}_scale.data"
 print(name)
 write(
     name,

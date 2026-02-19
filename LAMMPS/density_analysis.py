@@ -49,7 +49,7 @@ for i,key in enumerate(dict_exp_names):
 ax.set_xlabel("timestep")
 ax.set_ylabel("mean bond length")
 ax.legend()
-fig.savefig(f"{PROJECT_ROOT}/density_bonds.png")
+fig.savefig(f"{PROJECT_ROOT}/images/density_bonds.png")
 
 
 
@@ -110,4 +110,4 @@ ax.set_ylabel("Fraction")
 ax.legend()
 
 fig.tight_layout()
-fig.savefig(f"{PROJECT_ROOT}/coordination.png")
+fig.savefig(f"{PROJECT_ROOT}/images/coordination.png")

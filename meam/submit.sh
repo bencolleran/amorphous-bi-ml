@@ -22,20 +22,22 @@ module load openmpi4.1.6
 
 export DIR=$(pwd)
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib64/
-
-# some lammps settings (units, setting up the potential)
-system=Bi
-model=gap
-units=metal
-pot=$DIR/final_mlip/gap_file.xml
-# make sure that the 'sparseX' file(s) are in the same directory as the .xml
-pair_style=quip
-pair_coeff='* * '"${pot}"' "IP GAP label=GAP_2025_12_21_0_0_48_42_921" 83'
+ 
+#run in lammps
+ #../../../spet5633/lmp-files/lmp-exe/lmp-init-11_22
+ #lmp_exe_versions.txt  lmp-init-11_22  lmp-keat-160323  lmp-kim-010823  lmp-mace-050225  lmp-mtp-71222
+ #lmp_exec=$DIR/../../../spet5633/lmp-files/lmp-exe/lmp-mace-050225 # LAMMPS executable binary file
+#---------------------- Bits you may need to change ---------------------------------
+ 
 # all input files and the lammps executable should be in the project directory
-lmp_exec=$DIR/../../../applications/lammps-installs/lammps-new-quip-200126/lammps-22Jul2025/build/lmp
+ 
 restart=data # choose either data or continuation as starting structure for run
 lmp_in=$DIR/in_nvt # lammps infile, for constant 'NVT' ensemble MD
-s=$DIR/structures/Bi_2_2_1_192_1.0_scale.data
+lmp_exec=$DIR/../../../applications/lammps-installs/autoplex/lammps/build/lmp # LAMMPS executable binary file
+ 
+# Starting structure - provided by qsub -v STRUCTURE=... in the run script
+s=$DIR/Bi_diamond_64.data
+ 
 # Name of the run directory that gets created - based on simulation parameters captured in unique_key
 rundir="$(date +"%Y%m%d_%H%M%S")"           
 #-----------------------------------------------------------------------------------
@@ -65,6 +67,17 @@ mkdir -p ${rundir}/NVT
 mkdir -p ${rundir}/restart
 cp "$s" "${rundir}/"
  
+# some lammps settings (units, setting up the potential)
+system=Bi
+model=gap
+units=metal
+## the pairstyle below is currently re-defined in the in_nvt input, so these will do nothing
+pot1=$DIR/library.meam # filename for the GAP potential that you use for the simulation
+pot2=$DIR/Bi.meam
+# make sure that the 'sparseX' file(s) are in the same directory as the .xml
+pair_style=meam/c
+pair_coeff="* * ${pot1} Bi ${pot2} Bi"
+ 
 INFILE="${rundir}"
 rsync -rltq $INFILE $TMPDIR/
 cd $TMPDIR  # use the temporary directory local to the compute node. This avoids
@@ -91,3 +104,4 @@ wait $pid
  
 cd $DIR
 mv $JOB_ID.log $DIR/$rundir/
+ 

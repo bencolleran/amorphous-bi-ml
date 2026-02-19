@@ -78,6 +78,7 @@ def fps_correct(X, n_add, initial=None):
         new_vec = X[i]
         d = np.minimum(d, np.linalg.norm(X - new_vec, axis=1))
         d[i] = -np.inf
+        print("added another")
 
     new_indices = np.array(new_indices)
     new_vecs = X[new_indices]
@@ -180,16 +181,34 @@ def label_lammps(name,file_out=None):
 # label_lammps("20260212_152218")#1.1
 # label_lammps("20260212_152219")#1.2
 
-# a=np.load("soaps_20260212_152158.npy")#0.8
-# b=np.load("soaps_20260212_152203.npy")#1.0
-# c=np.load("soaps_20260212_152204.npy")#0.9
-# d=np.load("soaps_20260212_152218.npy")#1.1
-# e=np.load("soaps_20260212_152219.npy")#1.2
-# new_structures=np.vstack([a,b,c,d,e])
+a=np.load("soaps_20260212_152158.npy")#0.8
+b=np.load("soaps_20260212_152203.npy")#1.0
+c=np.load("soaps_20260212_152204.npy")#0.9
+d=np.load("soaps_20260212_152218.npy")#1.1
+e=np.load("soaps_20260212_152219.npy")#1.2
+new_structures=np.vstack([a,b,c,d,e])
 
 # print(fps_correct(X=new_structures,n_add=10,initial=np.load(f"{PROJECT_ROOT}/soaps_train.npy"))[2])
 
-#need to work out a way to copy the structures that i choose from fps to another folder to label with DFT
+# def export_new_structures(indices):
+#     filenames=['20260212_152158','20260212_152203','20260212_152204','20260212_152218','20260212_152219']
+#     files=[f"/NVT/dump_custom.Bi.{i*100}.dat" for i in range(801)]
+
+#     all_files=[]
+#     for file_prefix in filenames:
+#         for file_suffix in files:
+#             all_files.append(f"{PROJECT_ROOT}/{file_prefix}{file_suffix}")
+#     all_files=np.array(all_files)
+
+
+#     # destination = Path(f"{PROJECT_ROOT}/new_directory")
+#     # destination.mkdir(exist_ok=True)  # create folder if it doesn't exist
+#     destination = "/u/vld/sedm7085/project/castep_labelling/LAMMPS_structures"
+
+#     for file in all_files[indices]:
+#         shutil.copy(file, destination)
+#         print("moved_file")
+#     return
 
 def export_new_structures(indices):
     filenames=['20260212_152158','20260212_152203','20260212_152204','20260212_152218','20260212_152219']
@@ -201,13 +220,28 @@ def export_new_structures(indices):
             all_files.append(f"{PROJECT_ROOT}/{file_prefix}{file_suffix}")
     all_files=np.array(all_files)
 
+    # destination = Path(f"{PROJECT_ROOT}/new_directory")
+    # destination.mkdir(exist_ok=True)  # create folder if it doesn't exist
+    destination = "/u/vld/sedm7085/project/castep_labelling/LAMMPS_structures"
 
-    destination = Path(f"{PROJECT_ROOT}/new_directory")
-    destination.mkdir(exist_ok=True)  # create folder if it doesn't exist
+    from pathlib import Path
+    import shutil
 
     for file in all_files[indices]:
-        shutil.copy(file, destination)
+        src = Path(file)
+        dst = Path(destination) / src.name
+
+        counter = 1
+        while dst.exists():
+            dst = Path(destination) / f"{src.stem}_{counter}{src.suffix}"
+            counter += 1
+
+        shutil.copy(src, dst)
+        print("moved_file")
+
     return
+
+
 
 #export_new_structures([0,2])
 
@@ -216,3 +250,7 @@ def export_new_structures(indices):
 # random.seed(42)
 # print(random.randint(0, 4004),random.randint(0, 4004),random.randint(0, 4004))
 # export_new_structures([random.randint(0, 4004),random.randint(0, 4004),random.randint(0, 4004)])
+
+#print(fps_correct(X=new_structures,n_add=10,initial=np.load(f"{PROJECT_ROOT}/soaps_train.npy"))[2])
+
+export_new_structures(fps_correct(X=new_structures,n_add=100,initial=np.load(f"{PROJECT_ROOT}/soaps_train.npy"))[2])

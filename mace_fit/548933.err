@@ -1,0 +1,87 @@
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/e3nn/o3/_wigner.py:10: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  _Jd, _W3j_flat, _W3j_indices = torch.load(os.path.join(os.path.dirname(__file__), 'constants.pt'))
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/mace/modules/models.py:70: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "atomic_numbers", torch.tensor(atomic_numbers, dtype=torch.int64)
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/u/vld/sedm7085/miniconda3/envs/autoplex/bin/mace_run_train", line 7, in <module>
+    sys.exit(main())
+  File "/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/mace/cli/run_train.py", line 75, in main
+    run(args)
+  File "/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/mace/cli/run_train.py", line 668, in run
+    model = run_e3nn_to_cueq(deepcopy(model), device=device)
+  File "/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/mace/cli/convert_e3nn_cueq.py", line 166, in run
+    transfer_weights(source_model, target_model, max_L, correlation, num_layers)
+  File "/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/mace/cli/convert_e3nn_cueq.py", line 125, in transfer_weights
+    target_model.load_state_dict(target_dict)
+  File "/u/vld/sedm7085/miniconda3/envs/autoplex/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2629, in load_state_dict
+    raise RuntimeError(
+RuntimeError: Error(s) in loading state_dict for ScaleShiftMACE:
+	Unexpected key(s) in state_dict: "products.0.symmetric_contractions.weight", "products.1.symmetric_contractions.weight". 
+	size mismatch for node_embedding.linear.weight: copying a param with shape torch.Size([1, 128]) from checkpoint, the shape in current model is torch.Size([128]).
+	size mismatch for interactions.0.linear_up.weight: copying a param with shape torch.Size([1, 16384]) from checkpoint, the shape in current model is torch.Size([16384]).
+	size mismatch for interactions.0.linear.weight: copying a param with shape torch.Size([1, 65536]) from checkpoint, the shape in current model is torch.Size([65536]).
+	size mismatch for interactions.0.skip_tp.weight: copying a param with shape torch.Size([1, 65536]) from checkpoint, the shape in current model is torch.Size([65536]).
+	size mismatch for interactions.1.linear_up.weight: copying a param with shape torch.Size([1, 32768]) from checkpoint, the shape in current model is torch.Size([32768]).
+	size mismatch for interactions.1.linear.weight: copying a param with shape torch.Size([1, 163840]) from checkpoint, the shape in current model is torch.Size([163840]).
+	size mismatch for interactions.1.skip_tp.weight: copying a param with shape torch.Size([1, 16384]) from checkpoint, the shape in current model is torch.Size([16384]).
+	size mismatch for products.0.linear.weight: copying a param with shape torch.Size([1, 32768]) from checkpoint, the shape in current model is torch.Size([32768]).
+	size mismatch for products.1.linear.weight: copying a param with shape torch.Size([1, 16384]) from checkpoint, the shape in current model is torch.Size([16384]).
+	size mismatch for readouts.0.linear.weight: copying a param with shape torch.Size([1, 128]) from checkpoint, the shape in current model is torch.Size([128]).
+	size mismatch for readouts.1.linear_1.weight: copying a param with shape torch.Size([1, 2048]) from checkpoint, the shape in current model is torch.Size([2048]).
+	size mismatch for readouts.1.linear_2.weight: copying a param with shape torch.Size([1, 16]) from checkpoint, the shape in current model is torch.Size([16]).

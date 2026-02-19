@@ -99,5 +99,5 @@ if __name__=="__main__":
     ax.set_ylabel("g(r)")
     ax.legend()
     fig.tight_layout()
-    fig.savefig(f"{PROJECT_ROOT}/{name}_test.png", dpi=300, bbox_inches="tight")
+    fig.savefig(f"{PROJECT_ROOT}/images/{name}_test.png", dpi=300, bbox_inches="tight")
     plt.show()

@@ -25,7 +25,7 @@ ax.plot(x[(w-1):],ma)
 ax.set_xlim(0, 20)
 ax.set_ylabel("mean force magnitude per atom (eV/\u212B)")
 ax.set_xlabel("simulation time (ps)")
-fig.savefig(f"{name}_plot", dpi=600, bbox_inches="tight")
+fig.savefig(f"images/{name}_plot", dpi=600, bbox_inches="tight")
 
 
 #procedure is heat for 20 ps, cool for 30 ps, nvt for 10 ps

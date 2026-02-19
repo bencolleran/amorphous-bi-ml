@@ -29,7 +29,7 @@ ax.plot(x,ma[5:-5])
 ax.set_xlim(0, 20)
 ax.set_ylabel("energy per atom (eV)")
 ax.set_xlabel("simulation time (ps)")
-#fig.savefig(f"{name}_plot", dpi=600, bbox_inches="tight")
+#fig.savefig(f"images/{name}_plot", dpi=600, bbox_inches="tight")
 
 
 #procedure is heat for 20 ps, cool for 30 ps, nvt for 10 ps
@@ -75,7 +75,7 @@ def plot_var(name):
     ax.set_xlim(0, 20)
     ax.set_ylabel(ylabel)
     ax.set_xlabel("simulation time (ps)")
-    fig.savefig(f"{name}_plot", dpi=600, bbox_inches="tight")
+    fig.savefig(f"images/{name}_plot", dpi=600, bbox_inches="tight")
     return
 
 plot_var("energies")

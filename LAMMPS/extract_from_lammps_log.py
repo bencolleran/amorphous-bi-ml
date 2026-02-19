@@ -42,4 +42,4 @@ y=MeanSquare
 plt.xlabel("T / K")
 plt.ylabel("MSD / A")
 plt.scatter(x,y)
-plt.savefig(f"{PROJECT_ROOT}/plot", dpi=600, bbox_inches="tight")
+plt.savefig(f"{PROJECT_ROOT}/images/plot", dpi=600, bbox_inches="tight")

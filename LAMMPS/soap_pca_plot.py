@@ -32,7 +32,7 @@ new_structures=np.vstack([a,b,c,d,e])
 # ax.set_xlabel("PC1")
 # ax.set_ylabel("PC2")
 # ax.set_title("PCA of SOAP vectors")
-# fig.savefig(f"{PROJECT_ROOT}/pca_lammps_plot_new_structures.png")
+# fig.savefig(f"{PROJECT_ROOT}/images/pca_lammps_plot_new_structures.png")
 
 # stack both datasets
 A=train
@@ -92,4 +92,4 @@ for i, idx in enumerate(highlight_indices):
     )
 
 ax.legend()
-fig.savefig(f"{PROJECT_ROOT}/pca_plot_color_new_structures.png")
+fig.savefig(f"{PROJECT_ROOT}/images/pca_plot_color_new_structures.png")

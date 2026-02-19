@@ -1,0 +1,108 @@
+The selected project is autoplex_project from config file /u/vld/sedm7085/.jfremote/autoplex_project.yaml
+
+                                                                      Jobs info                                                                      
+┏━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━┓
+┃ DB id ┃ Name                               ┃ State     ┃ Job id (Index)                            ┃ Worker                  ┃ Last updated [GMT] ┃
+┡━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━┩
+│ 2064  │ EOS_PBE_SOcoupled postprocessing   │ COMPLETED │ 1e313abf-3e7d-4465-812f-af2802edde49  (1) │ autoplex_project_worker │ 2025-11-21 10:56   │
+│ 2056  │ static deformation 2               │ COMPLETED │ 64dd57c3-d040-4b85-bfd8-a1aca5c5768f  (1) │ autoplex_project_worker │ 2025-11-21 10:54   │
+│ 2077  │ EOS_RSCAN_SOcoupled postprocessing │ COMPLETED │ df7a7bed-236c-4f20-91b3-8016bc00013e  (1) │ autoplex_project_worker │ 2025-11-20 22:17   │
+│ 2075  │ static deformation 8               │ COMPLETED │ 4454e248-c6d5-407c-a0f3-c6c2bbe12c59  (1) │ autoplex_project_worker │ 2025-11-20 22:15   │
+│ 2074  │ static deformation 7               │ COMPLETED │ 20ec7e86-cccd-48d6-8ddf-6704b33e60d3  (1) │ autoplex_project_worker │ 2025-11-20 22:12   │
+│ 2071  │ static deformation 4               │ COMPLETED │ b2d55151-99f5-4f22-8cb4-20ea67be6b19  (1) │ autoplex_project_worker │ 2025-11-20 22:12   │
+│ 2070  │ static deformation 3               │ COMPLETED │ 55a3c85a-dc12-4993-adad-6d8b18356151  (1) │ autoplex_project_worker │ 2025-11-20 22:12   │
+│ 2068  │ static deformation 1               │ COMPLETED │ 708c1131-c5d4-4e46-ba60-335ab912a002  (1) │ autoplex_project_worker │ 2025-11-20 22:11   │
+│ 2067  │ static deformation 0               │ COMPLETED │ e89b854d-c68a-408f-aa45-b19f3872b001  (1) │ autoplex_project_worker │ 2025-11-20 22:11   │
+│ 2076  │ static deformation 9               │ COMPLETED │ 8b182f3b-4c6e-4389-83b2-74bce82627f4  (1) │ autoplex_project_worker │ 2025-11-20 22:00   │
+│ 2072  │ static deformation 5               │ COMPLETED │ 08eac246-c451-4529-9570-0b2c47293a01  (1) │ autoplex_project_worker │ 2025-11-20 21:52   │
+│ 2069  │ static deformation 2               │ COMPLETED │ 695d7d59-000f-4a32-be7f-e8b45a1cbe01  (1) │ autoplex_project_worker │ 2025-11-20 21:51   │
+│ 2073  │ static deformation 6               │ COMPLETED │ fab30b98-ccb9-4e67-bfdc-69882d497d90  (1) │ autoplex_project_worker │ 2025-11-20 21:51   │
+│ 2066  │ apply_strain_to_structure          │ COMPLETED │ 0f7aad5c-78c6-4cde-b9ea-e446dc21c425  (1) │ autoplex_project_worker │ 2025-11-20 21:33   │
+│ 2065  │ EOS equilibrium relaxation         │ COMPLETED │ f9242bc1-0dd7-49c6-a3c1-9c6dd6fcff5b  (1) │ autoplex_project_worker │ 2025-11-20 21:31   │
+│ 1960  │ castep_job                         │ COMPLETED │ 47d44192-1290-4a96-b1f5-2e6312b4db55  (1) │ autoplex_project_worker │ 2025-11-20 19:25   │
+│ 2051  │ castep_job                         │ COMPLETED │ 1172ea21-00ea-48e8-ba93-452099a15bf1  (1) │ autoplex_project_worker │ 2025-11-20 19:21   │
+│ 2050  │ castep_job                         │ COMPLETED │ 29b703d5-7ed7-4d23-bb56-c84131e6b8b5  (1) │ autoplex_project_worker │ 2025-11-20 18:37   │
+│ 2049  │ castep_job                         │ COMPLETED │ 8fec67e2-c8e8-4cf4-a577-0f39035d36e5  (1) │ autoplex_project_worker │ 2025-11-20 17:59   │
+│ 2048  │ castep_job                         │ COMPLETED │ 0dbd9884-a196-4cb7-8a4d-7fcbf05025f3  (1) │ autoplex_project_worker │ 2025-11-20 17:26   │
+│ 2062  │ static deformation 8               │ COMPLETED │ d5a49bb2-c264-4bae-87e3-d143ac28619f  (1) │ autoplex_project_worker │ 2025-11-20 17:14   │
+│ 2063  │ static deformation 9               │ COMPLETED │ 1b2e3032-fe02-4354-99a4-f3416886589b  (1) │ autoplex_project_worker │ 2025-11-20 17:12   │
+│ 2061  │ static deformation 7               │ COMPLETED │ 8a631cda-d445-47cc-816b-eee6355be8cc  (1) │ autoplex_project_worker │ 2025-11-20 17:10   │
+│ 2047  │ castep_job                         │ COMPLETED │ dcfea3f4-a349-4d8d-995f-abe149fe8128  (1) │ autoplex_project_worker │ 2025-11-20 16:59   │
+│ 2060  │ static deformation 6               │ COMPLETED │ 084c239a-3388-4f20-9c35-c650c891fdf4  (1) │ autoplex_project_worker │ 2025-11-20 16:58   │
+│ 2055  │ static deformation 1               │ COMPLETED │ 41b01ae7-9ac8-480c-ba2d-ca002b89c527  (1) │ autoplex_project_worker │ 2025-11-20 16:57   │
+│ 2059  │ static deformation 5               │ COMPLETED │ 91b0b68e-56f2-4741-8407-665c173d8afe  (1) │ autoplex_project_worker │ 2025-11-20 16:56   │
+│ 2054  │ static deformation 0               │ COMPLETED │ 89ca81cb-cd01-440f-afe3-f954cf7579cb  (1) │ autoplex_project_worker │ 2025-11-20 16:56   │
+│ 2057  │ static deformation 3               │ COMPLETED │ a06247f1-bfee-459a-9972-acc312ace23e  (1) │ autoplex_project_worker │ 2025-11-20 16:56   │
+│ 2058  │ static deformation 4               │ COMPLETED │ f411cb75-cbf6-4db8-b78f-49c0511efc17  (1) │ autoplex_project_worker │ 2025-11-20 16:50   │
+│ 2053  │ apply_strain_to_structure          │ COMPLETED │ 3fb270a7-da45-479b-a82f-f53c3a78e6e6  (1) │ autoplex_project_worker │ 2025-11-20 16:40   │
+│ 2052  │ EOS equilibrium relaxation         │ COMPLETED │ b957db05-a28e-4baa-8c4a-6f0e7227a935  (1) │ autoplex_project_worker │ 2025-11-20 16:38   │
+│ 2046  │ castep_job                         │ COMPLETED │ d7331351-1f6f-485f-8b2e-b580125d08f0  (1) │ autoplex_project_worker │ 2025-11-20 16:36   │
+│ 2045  │ castep_job                         │ COMPLETED │ 6497c682-9eb2-43ff-b58f-f46880d934ba  (1) │ autoplex_project_worker │ 2025-11-20 16:18   │
+│ 2044  │ castep_job                         │ COMPLETED │ e84b9262-8a2c-4dc1-a104-0637d670a8a1  (1) │ autoplex_project_worker │ 2025-11-20 16:02   │
+│ 2043  │ castep_job                         │ COMPLETED │ 3b08d2b4-c2ab-4fdc-b493-38b4235a977f  (1) │ autoplex_project_worker │ 2025-11-20 15:50   │
+│ 2042  │ castep_job                         │ COMPLETED │ b76aadca-3190-492b-b664-b1cdaafd4f4b  (1) │ autoplex_project_worker │ 2025-11-20 15:39   │
+│ 2041  │ castep_job                         │ COMPLETED │ 059a1b2b-d881-4170-8a62-90c51ed43335  (1) │ autoplex_project_worker │ 2025-11-20 15:31   │
+│ 2040  │ castep_job                         │ COMPLETED │ c9b74302-418d-46c8-8314-da474de13a50  (1) │ autoplex_project_worker │ 2025-11-20 15:25   │
+│ 2039  │ castep_job                         │ COMPLETED │ 8fefe8a8-5372-4ebc-a599-f331b1154a50  (1) │ autoplex_project_worker │ 2025-11-20 15:21   │
+│ 2038  │ castep_job                         │ COMPLETED │ b815cad7-54ff-4978-bc4f-57ab50ca6290  (1) │ autoplex_project_worker │ 2025-11-20 15:17   │
+│ 2037  │ castep_job                         │ COMPLETED │ 9146ce4c-1c77-4f53-aac3-c9ee8d19d71f  (1) │ autoplex_project_worker │ 2025-11-20 15:15   │
+│ 2036  │ castep_job                         │ COMPLETED │ 793a0e13-84d1-45cd-a13a-3a48fc6ff643  (1) │ autoplex_project_worker │ 2025-11-20 15:13   │
+│ 2035  │ castep_job                         │ COMPLETED │ ff1a80c9-fbfa-4645-88f9-d7b4ff8a8230  (1) │ autoplex_project_worker │ 2025-11-20 14:54   │
+│ 2034  │ castep_job                         │ COMPLETED │ d4be8f27-09f6-4555-a9b9-00837c2aae05  (1) │ autoplex_project_worker │ 2025-11-20 14:38   │
+│ 2033  │ castep_job                         │ COMPLETED │ 2142baae-86db-4e6b-bfc2-1b932dcad4e9  (1) │ autoplex_project_worker │ 2025-11-20 14:24   │
+│ 2032  │ castep_job                         │ COMPLETED │ 73413113-9a76-486b-864c-2b57fe5b28c3  (1) │ autoplex_project_worker │ 2025-11-20 14:12   │
+│ 2031  │ castep_job                         │ COMPLETED │ 77fd48e4-a455-4dc6-a558-2474fdad4781  (1) │ autoplex_project_worker │ 2025-11-20 14:02   │
+│ 2030  │ castep_job                         │ COMPLETED │ 8f623f07-8c61-4602-a5f6-cdfc3cf4cff0  (1) │ autoplex_project_worker │ 2025-11-20 13:54   │
+│ 2029  │ castep_job                         │ COMPLETED │ 469ea1f1-81ac-4858-92b1-8d5ae05689f9  (1) │ autoplex_project_worker │ 2025-11-20 13:47   │
+│ 2028  │ castep_job                         │ COMPLETED │ cef88548-f3b0-48a0-af1f-e95da8a53485  (1) │ autoplex_project_worker │ 2025-11-20 13:41   │
+│ 2027  │ castep_job                         │ COMPLETED │ 0eef2821-90f3-4b04-b643-c43569f27a33  (1) │ autoplex_project_worker │ 2025-11-20 13:29   │
+│ 2026  │ castep_job                         │ COMPLETED │ 5e182528-48c4-4b2e-b5f4-a79615b38a96  (1) │ autoplex_project_worker │ 2025-11-20 13:25   │
+│ 2025  │ castep_job                         │ COMPLETED │ 65ff70c3-03a3-43c6-8e24-5115d45bd9ad  (1) │ autoplex_project_worker │ 2025-11-20 13:22   │
+│ 2024  │ castep_job                         │ COMPLETED │ e6abd9d0-0b69-4efc-9498-46971dadad15  (1) │ autoplex_project_worker │ 2025-11-20 13:20   │
+│ 2023  │ castep_job                         │ COMPLETED │ 2f3a0601-dea0-4633-aabd-7b07713ff3a5  (1) │ autoplex_project_worker │ 2025-11-20 13:19   │
+│ 2022  │ castep_job                         │ COMPLETED │ 9b9d5568-7232-42ee-8cd8-5c435b9d00e1  (1) │ autoplex_project_worker │ 2025-11-20 13:17   │
+│ 2021  │ castep_job                         │ COMPLETED │ d5f3b582-e07f-4c99-af64-3c1a6f53d959  (1) │ autoplex_project_worker │ 2025-11-20 13:11   │
+│ 2020  │ castep_job                         │ COMPLETED │ b6b18ec0-5dcf-4a21-b082-c31012b4fdff  (1) │ autoplex_project_worker │ 2025-11-20 13:08   │
+│ 2019  │ castep_job                         │ COMPLETED │ 04d61d01-13f3-4148-8438-81482efab7fc  (1) │ autoplex_project_worker │ 2025-11-20 13:05   │
+│ 2018  │ castep_job                         │ COMPLETED │ 046d3110-6b4c-4d96-8892-ec5e7c68503e  (1) │ autoplex_project_worker │ 2025-11-20 13:02   │
+│ 2017  │ castep_job                         │ COMPLETED │ 1cc1633c-b323-4e6a-8301-b3e6e51b11f8  (1) │ autoplex_project_worker │ 2025-11-20 12:59   │
+│ 2016  │ castep_job                         │ COMPLETED │ 1fab3f54-cd22-46ce-ad1b-674c770e9119  (1) │ autoplex_project_worker │ 2025-11-20 12:57   │
+│ 2015  │ castep_job                         │ COMPLETED │ 831c5bdc-479b-46c2-9052-e7f29da62afb  (1) │ autoplex_project_worker │ 2025-11-20 12:55   │
+│ 2014  │ castep_job                         │ COMPLETED │ 09641eef-ece5-454d-8fcb-5e8def3cde37  (1) │ autoplex_project_worker │ 2025-11-20 12:52   │
+│ 2013  │ castep_job                         │ COMPLETED │ d5285a93-d4ae-4284-9bbf-806db35b3ac2  (1) │ autoplex_project_worker │ 2025-11-20 12:50   │
+│ 2012  │ castep_job                         │ COMPLETED │ f7d13d3e-c8ce-4fd9-83ef-bc69fecf8f65  (1) │ autoplex_project_worker │ 2025-11-20 12:48   │
+│ 2011  │ castep_job                         │ COMPLETED │ a5c7f0dd-6bd3-46b7-b7e7-4dc12501fd61  (1) │ autoplex_project_worker │ 2025-11-20 12:47   │
+│ 2010  │ castep_job                         │ COMPLETED │ 8352029e-f7c0-45ce-9605-ebb7d63b544c  (1) │ autoplex_project_worker │ 2025-11-20 12:45   │
+│ 2009  │ castep_job                         │ COMPLETED │ 4c5bc033-acc7-4e3c-9370-29cd548d1f0d  (1) │ autoplex_project_worker │ 2025-11-20 12:43   │
+│ 2008  │ castep_job                         │ COMPLETED │ edcb8829-4570-4913-830c-d20c72fc3986  (1) │ autoplex_project_worker │ 2025-11-20 12:42   │
+│ 2007  │ castep_job                         │ COMPLETED │ 0d6725e1-0ea6-49d6-b6e7-2ead1512141c  (1) │ autoplex_project_worker │ 2025-11-20 12:40   │
+│ 2006  │ castep_job                         │ COMPLETED │ c89627b4-647b-4ea4-999f-98ac74ce8dc2  (1) │ autoplex_project_worker │ 2025-11-20 12:39   │
+│ 2005  │ castep_job                         │ COMPLETED │ 4a2c6e9c-6c48-4053-a472-b1cc5a0b5b23  (1) │ autoplex_project_worker │ 2025-11-20 12:38   │
+│ 2004  │ castep_job                         │ COMPLETED │ 58650845-d972-4031-9478-317afea28dc8  (1) │ autoplex_project_worker │ 2025-11-20 12:37   │
+│ 2003  │ castep_job                         │ COMPLETED │ b9c79aed-07b9-4c9e-8c4b-bef692d15c71  (1) │ autoplex_project_worker │ 2025-11-20 12:36   │
+│ 2002  │ castep_job                         │ COMPLETED │ 267fbe10-1b88-4189-acf9-899c1a0d8121  (1) │ autoplex_project_worker │ 2025-11-20 12:36   │
+│ 2001  │ castep_job                         │ COMPLETED │ e3ab122a-53c4-49e9-9aa5-09d3170be619  (1) │ autoplex_project_worker │ 2025-11-20 12:35   │
+│ 2000  │ castep_job                         │ COMPLETED │ a4605bee-ff07-4a89-bc75-ef6506d39697  (1) │ autoplex_project_worker │ 2025-11-20 12:34   │
+│ 1999  │ castep_job                         │ COMPLETED │ 2f1035a9-2be8-45fe-9d78-9e2b044dba72  (1) │ autoplex_project_worker │ 2025-11-20 12:33   │
+│ 1998  │ castep_job                         │ COMPLETED │ 9152feef-28cc-4a55-bd49-e4d3427907e3  (1) │ autoplex_project_worker │ 2025-11-20 12:32   │
+│ 1997  │ castep_job                         │ COMPLETED │ 514c951f-62ab-43c5-ba22-356fb9012cdf  (1) │ autoplex_project_worker │ 2025-11-20 12:32   │
+│ 1996  │ castep_job                         │ COMPLETED │ 889ee891-914b-4703-8806-5460a41e909e  (1) │ autoplex_project_worker │ 2025-11-20 12:31   │
+│ 1995  │ castep_job                         │ COMPLETED │ 876ad66c-d36e-484a-ae05-71046ac4941d  (1) │ autoplex_project_worker │ 2025-11-20 12:30   │
+│ 1994  │ castep_job                         │ COMPLETED │ a5ae5930-e3d7-4a7c-a1f4-c6c64797d1ad  (1) │ autoplex_project_worker │ 2025-11-20 12:30   │
+│ 1993  │ castep_job                         │ COMPLETED │ 27f027f2-2981-4050-b3f6-9fd41a533388  (1) │ autoplex_project_worker │ 2025-11-20 12:29   │
+│ 1992  │ castep_job                         │ COMPLETED │ de395de6-315b-4a06-9608-98fcd0e58798  (1) │ autoplex_project_worker │ 2025-11-20 12:27   │
+│ 1991  │ castep_job                         │ COMPLETED │ 61571e65-c08a-49d2-b1ba-c91f390842c4  (1) │ autoplex_project_worker │ 2025-11-20 12:25   │
+│ 1990  │ castep_job                         │ COMPLETED │ ae8db549-e85f-47dc-8df9-d6a872662fce  (1) │ autoplex_project_worker │ 2025-11-20 12:24   │
+│ 1989  │ castep_job                         │ COMPLETED │ 0eb4663b-e7a8-4bec-a230-04b83071f80e  (1) │ autoplex_project_worker │ 2025-11-20 12:23   │
+│ 1988  │ castep_job                         │ COMPLETED │ 1bdaaceb-be6b-47e0-858c-89d11239e3f6  (1) │ autoplex_project_worker │ 2025-11-20 12:22   │
+│ 1987  │ castep_job                         │ COMPLETED │ b9bd0cd7-d55d-407b-b602-db70394d5ae5  (1) │ autoplex_project_worker │ 2025-11-20 12:20   │
+│ 1986  │ castep_job                         │ COMPLETED │ bbc5e272-8d92-4783-abae-d3a0629d4468  (1) │ autoplex_project_worker │ 2025-11-20 12:19   │
+│ 1985  │ castep_job                         │ COMPLETED │ 478c80cf-2f81-4c07-96c5-9648d89b52c5  (1) │ autoplex_project_worker │ 2025-11-20 12:18   │
+│ 1984  │ castep_job                         │ COMPLETED │ 179536c8-85a6-4b15-bf05-032618bc71d2  (1) │ autoplex_project_worker │ 2025-11-20 12:17   │
+│ 1983  │ castep_job                         │ COMPLETED │ 0addae87-51a1-42f9-a406-0bc7548370e7  (1) │ autoplex_project_worker │ 2025-11-20 12:16   │
+│ 1982  │ castep_job                         │ COMPLETED │ 28c269a5-7f58-4bf4-871e-68883c5bebeb  (1) │ autoplex_project_worker │ 2025-11-20 12:15   │
+│ 1981  │ castep_job                         │ COMPLETED │ 12b333aa-3cf2-4899-a3bc-438435c8b5e3  (1) │ autoplex_project_worker │ 2025-11-20 12:14   │
+│ 1980  │ castep_job                         │ COMPLETED │ d955efa3-4ef1-4ac4-8638-7374fb24dc38  (1) │ autoplex_project_worker │ 2025-11-20 12:14   │
+│ 1979  │ castep_job                         │ COMPLETED │ 4947bc3c-5e0b-4ac0-93af-1b4980ded08e  (1) │ autoplex_project_worker │ 2025-11-20 12:13   │
+└───────┴────────────────────────────────────┴───────────┴───────────────────────────────────────────┴─────────────────────────┴────────────────────┘
+The number of Jobs printed may be limited by the maximum selected: 100
