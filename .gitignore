@@ -8,8 +8,6 @@ castep_data/
 *.log
 log*
 ompi.comp*/
-*sparse*
-*.xml
 *.meam
 *.extxyz
 *.data
@@ -19,5 +17,6 @@ out*
 *.traj
 *.pyc
 *.json
-
+mlip_tests/*.xml
+mlip_tests/*sparse*
 #ssh-keygen -t ed25519 -C "sedm7085@ox.ac.uk"

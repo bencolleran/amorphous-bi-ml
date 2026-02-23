@@ -68,8 +68,8 @@ for id in database_ids[-1]:
         stress=np.array(data[0]['output']['output']["stress"])
         volume=data[0]['output']['structure']['lattice']['volume']
         GPA_to_eV_per_A3 = 0.006241509
-        atoms.info['REF_virial']=(-volume*stress*GPA_to_eV_per_A3).flatten()
-        atoms.info['REF_energy']=data[0]['output']['output']["energy_per_atom"]
+        atoms.info['REF_virial']=(-volume*stress*GPA_to_eV_per_A3/len(atoms)).flatten()#per atom virial tensor
+        atoms.info['REF_energy']=data[0]['output']['output']["energy_per_atom"]*len(atoms) #total energy of cell
         # atoms.info['config_type']='lammps'
         # atoms.info['rss_group']='lammps'
         # atoms.info['energy_sigma']=0
