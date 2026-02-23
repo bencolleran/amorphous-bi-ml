@@ -27,10 +27,12 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib64/
 system=Bi
 model=gap
 units=metal
-pot=$DIR/final_mlip/gap_file.xml
-# make sure that the 'sparseX' file(s) are in the same directory as the .xml
+# pot=$DIR/../mlips/initial_autoplex_mlip/gap_file.xml
+# pair_style=quip
+# pair_coeff='* * '"${pot}"' "IP GAP label=GAP_2025_12_21_0_0_48_42_921" 83'
+pot=$DIR/../mlips/correct_extended_data_mlip/GAP.xml
 pair_style=quip
-pair_coeff='* * '"${pot}"' "IP GAP label=GAP_2025_12_21_0_0_48_42_921" 83'
+pair_coeff='* * '"${pot}"' "IP GAP label=GAP_2026_2_23_0_15_43_7_535" 83'
 # all input files and the lammps executable should be in the project directory
 lmp_exec=$DIR/../../../applications/lammps-installs/lammps-new-quip-200126/lammps-22Jul2025/build/lmp
 restart=data # choose either data or continuation as starting structure for run

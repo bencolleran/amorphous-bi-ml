@@ -76,9 +76,9 @@ run             ${N_equillibrate_amorphous}
 unfix           nvtfinalanneal
 
 # # -------------------- final relax / output ---------------------------
-# # thresholds: energy_tol = 2.7e-4 eV ; force_tol = 2.0e-3 eV/A
-# min_style cg
-# minimize        0 1.0e-5 10000 100000
+# thresholds: energy_tol = 2.7e-4 eV ; force_tol = 2.0e-3 eV/A
+min_style cg
+minimize        0 1.0e-5 10000 100000
 
 # Write Data
 write_data ${rundir}/out_data_quench_${system}
