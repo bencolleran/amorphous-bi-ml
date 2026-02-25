@@ -33,7 +33,7 @@ for structure in [1,2,3]:
     quip_forces.append(atoms.get_forces())
     atoms.calc=None
 
-    xml_path_new = Path(PROJECT_ROOT) / "defective_extended_data_mlip/GAP.xml"
+    xml_path_new = Path(PROJECT_ROOT) / "correct_extended_data_mlip/GAP.xml"
     gap_new = Potential(args_str="IP GAP", param_filename=str(xml_path_new))#correct quip code
     atoms.calc = gap_new
     quip_energy_new.append(atoms.get_total_energy()/192.0)
@@ -52,7 +52,7 @@ ax.scatter(quip_energy_new, quip_energy, s=10, marker='x')
 ax.set_xlabel("new energy / eV")
 ax.set_ylabel("old energy / eV")
 fig.tight_layout()
-fig.savefig(f"{PROJECT_ROOT}/images/energy_plot_new.png")
+fig.savefig(f"{PROJECT_ROOT}/images/energy_plot.png")
 
 
 fig, ax = plt.subplots()
@@ -62,4 +62,4 @@ ax.scatter(quip_forces_new, quip_forces, s=10, marker='x')
 ax.set_xlabel(f"new forces / eV/{unit}")
 ax.set_ylabel(f"old forces / eV/{unit}")
 fig.tight_layout()
-fig.savefig(f"{PROJECT_ROOT}/images/forces_plot_new.png")
+fig.savefig(f"{PROJECT_ROOT}/images/forces_plot.png")
